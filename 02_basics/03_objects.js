@@ -9,7 +9,7 @@ const mySym = Symbol("key1")
 const JsUser = {
     name: "Hitesh",
     "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1",
+    [mySym]: "mykey1",//key is a symbol
     age: 18,
     location: "Jaipur",
     email: "hitesh@google.com",
@@ -18,12 +18,12 @@ const JsUser = {
 }
 
 // console.log(JsUser.email)
-// console.log(JsUser["email"])
+// console.log(JsUser["email"])//same as above
 // console.log(JsUser["full name"])
-// console.log(JsUser[mySym])
+// console.log(JsUser[mySym])//only way to access the symbol key
 
 JsUser.email = "hitesh@chatgpt.com"
-// Object.freeze(JsUser)
+// Object.freeze(JsUser) //cannot change the object
 JsUser.email = "hitesh@microsoft.com"
 // console.log(JsUser);
 
