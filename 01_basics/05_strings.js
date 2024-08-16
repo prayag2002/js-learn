@@ -1,3 +1,4 @@
+//see string methods from chatgpt
 const name = "hitesh"
 const repoCount = 50
 

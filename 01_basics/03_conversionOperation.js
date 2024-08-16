@@ -1,29 +1,37 @@
 let score = "hitesh"
 
-//console.log(typeof score);
-//console.log(typeof(score));
+// console.log(typeof score);
+// console.log(typeof(score));
 
 let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
-//console.log(valueInNumber);
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
+
+// let inValidNum = 0/0; //5/0 ->infinity   -5/0  -> -infinity   0/0 -> NaN
+// console.log(inValidNum)
+// console.log(typeof inValidNum)
+
+// let name = "prayag"
+// console.log(isNaN(name))//converts the value to first number and then checks it is nan or not
+// console.log(Number.isNaN(name)) //directly checks the value that it is nan or not
 
 
 // "33" => 33
 // "33abc" => NaN
 //  true => 1; false => 0
 
-let isLoggedIn = "hitesh"
+// let isLoggedIn = "hitesh" 
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
 
-// 1 => true; 0 => false
+// 1 => true; 0 => false`
 // "" => false
 // "hitesh" => true
 
-let someNumber = 33
+// let someNumber = 33
 
-let stringNumber = String(someNumber)
+// let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
@@ -36,7 +44,7 @@ let negValue = -value
 // console.log(2+2);
 // console.log(2-2);
 // console.log(2*2);
-// console.log(2**3);
+// console.log(2**3);//power
 // console.log(2/3);
 // console.log(2%3);
 
@@ -60,9 +68,10 @@ let num1, num2, num3
 
 num1 = num2 = num3 = 2 + 2
 
+console.log(num1, num2, num3)
 let gameCounter = 100
 ++gameCounter;
-console.log(gameCounter);
+// console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
